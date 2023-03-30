@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(233, 231, 218);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+
+header{
+    justify-content: space-around;
+    display: flex;
+    padding: 30px;
+}
+
+img{
+    width: 70vh;
+    display: flex;
+    position: absolute;
+    top: -5%;
+    left: 30%;
+}
+
+.uno{
+    background-color: rgb(216, 214, 204);
+    position: absolute;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 25%;
+    top: 20%;
+    font-weight: 400;
+}
+
+.dos{
+    background-color: rgb(57, 62, 68);
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    padding: 15px;
+    padding-right: 100px;
+    padding-left: 24%;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+.fondo{
+    color: rgb(233, 231, 218);
+    position: absolute;
+    left: 49%;
+    top: 40%;
+    background-color: rgb(216, 214, 204);
+    padding-left: 10px;
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: uppercase;
+    padding-right: 0.21%;
+    z-index: -1;
+}
+.tres{
+    position: absolute;
+    left: 55%;
+    top: 45%;
+    font-weight: 500;
+}
+.cuatro{
+    position: absolute;
+    left: 51.5%;
+    top: 70%;
+    background-color: rgb(57, 62, 68);
+    color: white;
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.ocho,.cien,.infinito{
+    position: absolute;
+    top: 86%;
+    font-size: 40px;
+}
+.ocho,.abajoo{
+    left: 20%;
+    color: rgb(57, 62, 68);
+}
+.cien,.abajoc{
+    left: 45%;
+    color: white;
+}
+.infinito,.abajoi{
+    left: 65%;
+    color: rgb(57, 62, 68);
+}
+.abajoo,.abajoc,.abajoi{
+    position: absolute;
+    top: 92%;
+}
+.infinito{
+    top: 84% ;
+    font-size: 70px;
+    font-weight: 800;
+}
