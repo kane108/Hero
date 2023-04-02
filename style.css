@@ -25,21 +25,23 @@ header{
 
 img{
     width: 70vh;
-    display: flex;
-    position: absolute;
-    top: -5%;
-    left: 30%;
+    display: block;
+
+    margin: -7.7% auto;
 }
 
 .uno{
     background-color: rgb(216, 214, 204);
     position: absolute;
     width: 20%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    left: 25%;
+    padding-top: 1.7%;
+    padding-bottom: 1.7%;
+    left: 22%;
     top: 20%;
     font-weight: 400;
+    z-index: -1;
+    padding-right: 4%;
+    padding-left: 2%;
 }
 
 .dos{
@@ -48,11 +50,16 @@ img{
     left: 0%;
     top: 40%;
     padding: 15px;
-    padding-right: 100px;
+    padding-right: 20%;
     padding-left: 24%;
     color: white;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 13px;
+    height: 10.6%;
+    z-index: -4;
+}
+.dos p{
+    margin-top: 8%;
 }
 .fondo{
     color: rgb(233, 231, 218);
@@ -72,19 +79,22 @@ img{
     position: absolute;
     left: 55%;
     top: 45%;
-    font-weight: 500;
+    font-weight: 400;
+    margin-left: 4%;
 }
 .cuatro{
     position: absolute;
-    left: 51.5%;
+    left: 54.8%;
     top: 70%;
     background-color: rgb(57, 62, 68);
     color: white;
-    padding-left: 3%;
-    padding-right: 1%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 500;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 400;
+    z-index: -2;
+    font-size: 170%;
 }
 .ocho,.cien,.infinito{
     position: absolute;
@@ -109,6 +119,6 @@ img{
 }
 .infinito{
     top: 84% ;
-    font-size: 70px;
+    font-size: 380%;
     font-weight: 800;
 }
